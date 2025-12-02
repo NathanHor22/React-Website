@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links .logo {
+    margin-right: auto;
+}
+
+.nav-links .logo img {
+    height:40px;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: inherit;
+}
