@@ -7,7 +7,7 @@ function Navbar() {
       <ul className="nav-links">
         <li className="logo"><img src={syntechIcon} alt="Syntech Logo" /></li>
         <li><a href="#about">Our Story</a></li>
-        <li><a href="#services">SynthMed</a></li>
+        <li><a href="#SynthMed">SynthMed</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
